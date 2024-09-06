@@ -10,6 +10,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ObjMsg {
-    private String user;
-    private String msg;
+    private String userId;
+    private String userName;
+    private String userColor;
+    private String content;
 }
